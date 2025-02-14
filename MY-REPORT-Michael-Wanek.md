@@ -4,54 +4,49 @@
 
 Using Few-Shot Prompting to extract and refine e-commerce platform requirements.
 
-<!-- WHEN APPLICABLE, REMOVE THE COMMENT MARK AND COMPLETE
-This is a response to the Assignment part of the COURSE.
--->
-
-* Authors: [NAME1](http://www.YOURPAGE.xxx), [NAME_n](http://www.YOURPAGE.xxx)
+* Authors: [Michael Wanek](http://www.github.com/mwanek)
 * Academic Supervisor: [Dr. Fernando Koch](http://www.fernandokoch.me)
 
-  
+---
+
 # Research Question 
 
-1-liner description of your request (or exploration).. Make it enthusiastically!
+How can few-shot prompting enhance requirement analysis for e-commerce platforms by providing accurate and context-aware feature specifications?
 
 ## Arguments
 
 #### What is already known about this topic
 
-* you could do {something} to achieve {some result}
-* the challenges of {doing something}
-* the possibility of {doing something else}
-* ...
+* Few-shot prompting helps tailor AI responses for specific domains.
+* Challenges include ensuring the context is accurately maintained across prompts.
+* Possibility of automating initial requirement analysis phases using LLMs.
 
 #### What this research is exploring
 
-<!-- Free-format; use the topics that are applicable to your exploration  -->
-
-* we employ {some technique}
-* we are building {something}
-* we are exploring {some idea or technology}
+* We employ few-shot prompting with LLaMA 2 models.
+* We are building a Requirement Analysis Assistant for e-commerce.
+* We are exploring how to refine platform requirements from user inputs using LLMs.
 
 #### Implications for practice
 
-<!-- Free-format; use the topics that are applicable to your exploration  -->
-
-* it will be easier to {do something}
-* it will optimize {some process}
-* we will better understand {some process}
-* ...
+* It will be easier to generate initial requirement drafts.
+* It will optimize time spent on early requirement gathering.
+* We will better understand AI’s role in software development lifecycles.
 
 # Research Method
 
-Describe how you are building this research process.
+This project uses Python-based few-shot prompting with the Ollama framework and LLaMA 2 models, integrated through a Jupyter Notebook (`few_shots.ipynb`).
 
-<!-- WHEN APPLICABLE AND AVAILABLE -->
+Steps:
+- Set up local Ollama server.
+- Develop few-shot prompt examples.
+- Integrate prompts into e-commerce scenarios.
+- Evaluate output for accuracy and completeness.
 
 # Results
 
-Describe the results achieved through your research process.
+Initial results show that few-shot prompts generate comprehensive and context-aware e-commerce requirements, such as order history and secure payment features.
 
 # Further research
 
-Describe what we could do next and propose new ideas for further research.
+Future research could explore multi-shot prompting, integration with agile tools, and user feedback loops for continuous requirement refinement.
