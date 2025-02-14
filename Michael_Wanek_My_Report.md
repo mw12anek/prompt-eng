@@ -1,8 +1,8 @@
 ![GenI-Banner](https://github.com/genilab-fau/genial-fau.github.io/blob/8f1a2d3523f879e1082918c7bba19553cb6e7212/images/geni-lab-banner.png?raw=true)
 
-# {title of your research project}
+# Few-Shot Prompting for E-commerce Requirement Analysis
 
-1-liner description of your project
+Using Few-Shot Prompting to extract and refine e-commerce platform requirements.
 
 <!-- WHEN APPLICABLE, REMOVE THE COMMENT MARK AND COMPLETE
 This is a response to the Assignment part of the COURSE.
